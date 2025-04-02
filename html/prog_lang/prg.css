@@ -15,3 +15,8 @@ h1.h_blue{
 p#p_teal{
 	color:teal;
 }
+
+img{
+	width:350px;
+	height:350px;
+}
