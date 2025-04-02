@@ -1,10 +1,12 @@
-ol{
+ol, ul{
 	color:red;
 }
 
+/*
 ul{
 	color:green;
 }
+*/
 
 h1.h_blue{
 	color:blue;
