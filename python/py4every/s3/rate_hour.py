@@ -18,4 +18,7 @@ if hr > 0 and rt > 0:
         pay += (hr % 40) * (rt * 1.5)
         print('Pay --> ', round(pay, 2))
 else:
-    print("You entered wrong type")
+    if hr < 0:
+        print("Hours is wrong type")
+    if rt < 0: print("Rate is wrong")
+
